@@ -1,0 +1,9 @@
+version: "2"
+
+agents:
+  root:
+    model: anthropic/claude-sonnet-4-20250514
+    description: "A helpful AI assistant"
+    instruction: |
+      You are a knowledgeable assistant that helps users with various tasks.
+      Be helpful, accurate, and concise in your responses.
