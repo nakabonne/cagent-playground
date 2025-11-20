@@ -10,14 +10,16 @@ chmod +x cagent
 sudo mv cagent /usr/local/bin/
 ```
 
-## Run with TUI
+## Examples
+
+### Analyze logs with TUI
 
 ```
 cagent run agents/log_analyzer.yaml -a root
 ```
 
-## Run without TUI
+## Summarize news once
 
 ```
-cagent exec agents/log_analyzer.yaml
+cagent exec --model openai/gpt-4o agents/news_notion_agent.yaml
 ```
