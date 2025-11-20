@@ -9,3 +9,15 @@ curl -Lo cagent https://github.com/docker/cagent/releases/download/v1.9.10/cagen
 chmod +x cagent
 sudo mv cagent /usr/local/bin/
 ```
+
+## Run with TUI
+
+```
+cagent run agents/log_analyzer.yaml -a root
+```
+
+## Run without TUI
+
+```
+cagent exec agents/log_analyzer.yaml
+```

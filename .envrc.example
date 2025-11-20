@@ -1,1 +1,2 @@
-export ANTHROPIC_API_KEY=<your_anthropic_api_key>
+export ANTHROPIC_API_KEY=
+export OPENAI_API_KEY=
